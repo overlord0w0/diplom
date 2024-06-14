@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Новина</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="novina.css" />
+</head>
+<body>
+<div class="novina">
+    <div class="heder">
+        <div class="navbar">
+            <img class="gerb" src="img/logo.png" />
+            <div class="text-wrapper"id="Home">Головна</div>
+            <script>
+                document.getElementById('Home').addEventListener('click', function() {
+                    window.location.href = 'home.html';
+                });
+            </script>
+            <div class="div"id="Pro">Про нас</div>
+            <script>
+                document.getElementById('Pro').addEventListener('click', function() {
+                    window.location.href = 'pro_nas.html';
+                });
+            </script>
+            <div class="text-wrapper-2"id="Spe">Спеціальності</div>
+            <script>
+                document.getElementById('Spe').addEventListener('click', function() {
+                    window.location.href = 'spe_vsi.html';
+                });
+            </script>
+            <div class="text-wrapper-3"id="Stu">Студенту</div>
+            <script>
+                document.getElementById('Stu').addEventListener('click', function() {
+                    window.location.href = 'styd.html';
+                });
+            </script>
+            <div class="text-wrapper-4"id="Abi">Абітурієнту</div>
+            <script>
+                document.getElementById('Abi').addEventListener('click', function() {
+                    window.location.href = 'abitur.html';
+                });
+            </script>
+            <div class="text-wrapper-5"id="Kon">Контакти</div>
+            <script>
+                document.getElementById('Kon').addEventListener('click', function() {
+                    window.location.href = 'kontakt.html';
+                });
+            </script>
+        </div>
+    </div>
+    <div class="group">
+        <div class="overlap">
+            <div class="rectangle-wrapper"><div class="rectangle"></div></div>
+            <div class="baner">
+                <div class="container"><div class="heading-world-wide">Початок Training worpshop</div></div>
+                <div class="link-home"id="Home1">ГОЛОВНА</div>
+                <script>
+                    document.getElementById('Home1').addEventListener('click', function() {
+                        window.location.href = 'home.html';
+                    });
+                </script>
+                <div class="vertical-divider"></div>
+                <div class="link-design">ТРЕНІНГ</div>
+                <div class="vertical-divider-2"></div>
+                <div class="training-worpshop">ПОЧАТОК TRAINING WORPSHOP</div>
+            </div>
+        </div>
+    </div>
+    <div class="group-2">
+        <div class="group-3">
+            <div class="section">
+                <div class="heading-share-it">Поділитись:</div>
+                <img class="list" src="img/list.png" />
+            </div>
+            <div class="group-4">
+                <img class="new-blog-JPG-webp" src="img/novinaimage20.png">
+                <div class="background">
+                    <div class="text-wrapper-6">Категорія</div>
+                    <div class="link-design-2">Тренінг</div>
+                    <div class="text-wrapper-7">Дата</div>
+                    <div class="text-wrapper-8">Березень 19, 2024</div>
+                </div>
+            </div>
+            <div class="overlap-group">
+                <div class="heading-wrapper">
+                    <div class="heading">
+                        <div class="text-wrapper-9">Початок Training workshop</div>
+                        <p class="training-workshop">
+                            У Технічному фаховому коледжі НУ “Львівська політехніка” проведено Training workshop для студентів
+                            2-го та 3-го курсів спеціальності &#34;Маркетинг&#34;. Завданням студентів було розробити проєкт
+                            “Стартап-компанія та презентація її інвестору”.<br />Workshop провів викладач маркетингу та дизайну,
+                            засновник Voronin Design Studio, співзасновник мережі &#34;BRONX Fitness Hub&#34; Микола Воронін.<br />Студенти
+                            мали змогу виявити свої фахові уміння та одержали рекомендації щодо заснування власного
+                            підприємства.<br />ДАЛІ БУДЕ...
+                        </p>
+                    </div>
+                </div>
+                    <div class="group-5">
+                        <img class="image" src="img/novinaimage 22.png" />
+                        <img class="img" src="img/novinaimage 21.png" />
+                        <img class="image-2" src="img/novinaimage20.png" />
+                        <img class="image-3" src="img/novinaimage 24.png" />
+                        <img class="image-4" src="img/novinaimage 23.png" />
+                        <img class="image-5" src="img/novinaimage 25.png" />
+                        <img class="image-6" src="img/novinaimage 26.png" />
+                        <img class="image-7" src="img/novinaimage 27.png" />
+                        <script>
+                            document.querySelectorAll('.novina .group-5 img').forEach(img => {
+                                img.addEventListener('click', function() {
+                                    if (this.classList.contains('zoomed')) {
+                                        this.classList.remove('zoomed');
+                                    } else {
+                                        document.querySelectorAll('.novina .group-5 img.zoomed').forEach(zoomedImg => {
+                                            zoomedImg.classList.remove('zoomed');
+                                        });
+                                        this.classList.add('zoomed');
+                                    }
+                                });
+                            });
+                        </script>
+                    </div>
+            </div>
+        </div>
+        <div class="group-6">
+            <div class="aside">
+                <p class="heading-recent">
+                    <span class="span">Нові </span>
+                    <span class="span">пости</span>
+                    <span class="span">:</span>
+                </p>
+                <div class="list-2">
+                    <div class="item">
+                        <img class="link-new-blog-JPG" src="img/novinaimage 16.1.png">
+                        <div class="element">БЕРЕЗЕНЬ 20, 2024</div>
+                        <div class="heading-link"><div class="text-wrapper-10">завершився Training workshop</div></div>
+                    </div>
+                    <div class="item-2"id="nov">
+                        <img class="link-new-blog-JPG-2" src="img/novinaimage 15.png">
+                        <div class="element-2">БЕРЕЗЕНЬ 19, 2024</div>
+                        <div class="div-wrapper">
+                            <a><div class="text-wrapper-11">початок Training workshop</div></a>
+                            <script>
+                                document.getElementById('nov').addEventListener('click', function() {
+                                    window.location.href = 'novina.html';
+                                });
+                            </script>
+                        </div>
+                    </div>
+                    <div class="item-3">
+                        <img class="link-new-blog-JPG-3" src="img/novinaimage 17.png">
+                        <div class="element-2">БЕРЕЗЕНЬ 13, 2024</div>
+                        <div class="heading-link-2"><div class="text-wrapper-12">змагання з армрестлінгу</div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="view">
+                <img class="figure-link-insta" src="img/bloh-inst1.png"></img>
+                <img class="figure-link-insta-2" src="img/bloh-inst2.png"></img>
+                <img class="figure-link-insta-3" src="img/bloh-inst3.png"></img>
+                <img class="figure-link-insta-4" src="img/bloh-inst4.png"></img>
+                <img class="figure-link-insta-5" src="img/bloh-inst5.png"></img>
+                <img class="figure-link-insta-6" src="img/bloh-inst6.png"></img>
+                <div class="heading-instagram">Instagram :</div>
+            </div>
+        </div>
+    </div>
+    <div class="futer">
+        <div class="group-7">
+            <div class="text-wrapper-13">Навігація</div>
+            <div class="group-8">
+                <div class="text-wrapper-14"id="Pro1">Про нас</div>
+                <script>
+                    document.getElementById('Pro1').addEventListener('click', function() {
+                        window.location.href = 'pro_nas.html';
+                    });
+                </script>
+                <div class="text-wrapper-15"id="Kon1">Контакти</div>
+                <script>
+                    document.getElementById('Kon1').addEventListener('click', function() {
+                        window.location.href = 'kontakt.html';
+                    });
+                </script>
+                <div class="text-wrapper-16"id="Stu1">Студенту</div>
+                <script>
+                    document.getElementById('Stu1').addEventListener('click', function() {
+                        window.location.href = 'styd.html';
+                    });
+                </script>
+                <div class="text-wrapper-17"id="Abi1">Абітурієнту</div>
+                <script>
+                    document.getElementById('Abi1').addEventListener('click', function() {
+                        window.location.href = 'abitur.html';
+                    });
+                </script>
+                <div class="text-wrapper-18"id="Blog">Блог</div>
+                <script>
+                    document.getElementById('Blog').addEventListener('click', function() {
+                        window.location.href = 'bloh.html';
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="group-9">
+            <div class="text-wrapper-13">Контакти</div>
+            <div class="group-10">
+                <div class="group-11">
+                    <iframe class="image-8" <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5149.580468684217!2d24.07179148857456!3d49.80881117786951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae81c20a2ca41%3A0x29e04fd364c34bda!2z0KLQtdGF0L3RltGH0L3QuNC5INGE0LDRhdC-0LLQuNC5INC60L7Qu9C10LTQtg!5e0!3m2!1suk!2sua!4v1718252415886!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+                    <iframe class="image-9" <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10384.952187115126!2d24.307231886602437!3d49.40440382574531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a7d84f3315eb3%3A0xfd0c236e1ace4969!2z0KLQtdGF0L3RltGH0L3QuNC5INC60L7Qu9C10LTQtiDQndCw0YbRltC-0L3QsNC70YzQvdC-0LPQviDRg9C90ZbQstC10YDRgdC40YLQtdGC0YMgwqvQm9GM0LLRltCy0YHRjNC60LAg0L_QvtC70ZbRgtC10YXQvdGW0LrQsMK7!5e0!3m2!1suk!2sua!4v1718252488346!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+                </div>
+                <div class="group-12">
+                    <div class="group-13">
+                        <div class="element-3">м. Львів<br />вул. Пимоненка, 17</div>
+                        <img class="symbol" src="img/futericon1.png" />
+                    </div>
+                    <div class="group-14">
+                        <div class="text-wrapper-19">(032) 270-20-50</div>
+                        <img class="symbol-2" src="img/futericon2.png" />
+                    </div>
+                </div>
+                <div class="group-15">
+                    <div class="group-16">
+                        <p class="p">Львівська область,<br />м. Ходорів, вул. Грушевського, 3</p>
+                        <img class="symbol-3"src="img/futericon1.png">
+                    </div>
+                    <div class="group-17">
+                        <div class="text-wrapper-20">(3239) 5-32-32</div>
+                        <img class="symbol-4"src="img/futericon2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="group-18">
+            <img class="gerb-new" src="img/logo.png" />
+            <div class="text-wrapper-21">Перший в<br />незалежній Україні<br />коледж</div>
+        </div>
+        <div class="overlap-wrapper">
+            <div class="overlap-2">
+                <div class="overlap-group-2">
+                    <div class="text-wrapper-22">Політика Конфеденційності</div>
+                    <img class="line" src="img/line2.png" />
+                </div>
+                <p class="element-4">
+                    <span class="text-wrapper-23">© Технічний </span> <span class="text-wrapper-23">фаховий коледж 2024</span>
+                </p>
+            </div>
+        </div>
+        <div class="group-19">
+            <div class="overlap-3">
+                <div class="group-20">
+                    <div class="text-wrapper-24">121</div>
+                    <div class="text-wrapper-25">076</div>
+                    <div class="text-wrapper-26">141</div>
+                    <div class="text-wrapper-27">075</div>
+                    <div class="text-wrapper-28">181</div>
+                    <div class="text-wrapper-29">174</div>
+                    <div class="text-wrapper-30">123</div>
+                </div>
+                <div class="group-21">
+                    <div class="text-wrapper-18"id="proff1">Інженерія програмного забезпечення</div>
+                    <script>
+                        document.getElementById('proff1').addEventListener('click', function() {
+                            window.location.href = 'ipz.html';
+                        });
+                    </script>
+                    <div class="text-wrapper-15"id="proff2">Підприємництво та торгівля</div>
+                    <script>
+                        document.getElementById('proff2').addEventListener('click', function() {
+                            window.location.href = 'ptt.html';
+                        });
+                    </script>
+                    <div class="text-wrapper-17"id="proff3">Електроенергетика, електротехніка та електромеханіка</div>
+                    <script>
+                        document.getElementById('proff3').addEventListener('click', function() {
+                            window.location.href = 'ele.html';
+                        });
+                    </script>
+                    <div class="text-wrapper-14"id="proff4">Маркетинг</div>
+                    <script>
+                        document.getElementById('proff4').addEventListener('click', function() {
+                            window.location.href = 'mar.html';
+                        });
+                    </script>
+                    <div class="text-wrapper-31"id="proff5">Харчові технології</div>
+                    <script>
+                        document.getElementById('proff5').addEventListener('click', function() {
+                            window.location.href = 'ht.html';
+                        });
+                    </script>
+                    <div class="text-wrapper-32"id="proff6">Автоматизація, комп’ютерно-інтегровані<br />технології та робототехніка</div>
+                    <script>
+                        document.getElementById('proff6').addEventListener('click', function() {
+                            window.location.href = 'avtomat.html';
+                        });
+                    </script>
+                    <div class="text-wrapper-16"id="proff7">Комп’ютерна інженерія</div>
+                    <script>
+                        document.getElementById('proff7').addEventListener('click', function() {
+                            window.location.href = 'ki.html';
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="text-wrapper-33">Спеціальності</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
