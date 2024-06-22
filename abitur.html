@@ -217,7 +217,7 @@
         <div class="horizontal-divider-4"></div>
         <div class="text-wrapper-16">ВСТУПНА<br />КОМПАНІЯ</div>
         <div class="horizontal-divider-5"></div>
-        <div class="text-wrapper-17">Відеоінструкція рейстрації&nbsp;&nbsp;електроного кабінета вступника</div>
+        <div class="text-wrapper-17">Відеоінструкція рейстрації&nbsp;<br>електроного кабінета вступника</div>
         <div class="overlap-3">
             <p class="text-wrapper-18">Розклад для вступу 9 клас</p>
             <p class="text-wrapper-19">Програма для 9 клас (вступ)</p>
@@ -229,57 +229,102 @@
         ><div class="text-wrapper-23">Кабінет вступника</div></a
         >
         <div class="text-wrapper-24">Для онлайн вступу</div>
-        <div class="text-wrapper-25">Вступна компанія</div>
+        <div class="text-wrapper-25">Вступна кaмпанія</div>
         <div class="horizontal-divider-6"></div>
         <div class="text-wrapper-26">МОТИВАЦІЙНИЙ<br />ЛИСТ</div>
         <div class="horizontal-divider-7"></div>
-        <div class="text-wrapper-27">відеоінструкція написаня</div>
-        <div class="text-wrapper-28">зразок мотиваційного листа</div>
-        <div class="text-wrapper-29">вимоги до мотиваційного листа</div>
+        <div class="text-wrapper-27">Відеоінструкція написаня</div>
+        <div class="text-wrapper-28">Зразок мотиваційного листа</div>
+        <div class="text-wrapper-29">Вимоги до мотиваційного листа</div>
         <div class="horizontal-divider-8"></div>
         <div class="text-wrapper-30">ЗАРАХУВАНЯ</div>
         <div class="horizontal-divider-9"></div>
         <div class="overlap-4">
-            <p class="text-wrapper-31">рейтинг на 9 клас на вступ</p>
-            <p class="text-wrapper-32">зарах плат 11 клас (додаткова)</p>
-            <p class="text-wrapper-33">зарах плат 11 клас (основна)</p>
-            <p class="text-wrapper-34">зарах плат 9 клас (додаткова)</p>
-            <div class="text-wrapper-35">зарах платник 9 клас</div>
-            <div class="text-wrapper-36">зарах держ 9 клас</div>
+            <p class="text-wrapper-31">Рейтинг на 9 клас на вступ</p>
+            <p class="text-wrapper-32">Зарах плат 11 клас (додаткова)</p>
+            <p class="text-wrapper-33">Зарах плат 11 клас (основна)</p>
+            <p class="text-wrapper-34">Зарах плат 9 клас (додаткова)</p>
+            <div class="text-wrapper-35">Зарах платник 9 клас</div>
+            <div class="text-wrapper-36">Зарах держ 9 клас</div>
         </div>
         <div class="view-2">
             <div class="text-wrapper-37">Спеціальності</div>
             <div class="text-wrapper-38">Навігація</div>
             <div class="text-wrapper-39"id="Pro1">Про нас</div>
-        <script>
-            document.getElementById('Pro1').addEventListener('click', function() {
-                window.location.href = 'pro_nas.html';
-            });
-        </script>
+            <script>
+                document.getElementById('Pro1').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'pro_nas.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('pro_nas.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
+                });
+            </script>
             <div class="text-wrapper-40"id="Kon1">Контакти</div>
-        <script>
-            document.getElementById('Kon1').addEventListener('click', function() {
-                window.location.href = 'kontakt.html';
-            });
-        </script>
+            <script>
+                document.getElementById('Kon1').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'kontakt.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('kontakt.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
+                });
+            </script>
             <div class="text-wrapper-41"id="Stu1">Студенту</div>
-        <script>
-            document.getElementById('Stu1').addEventListener('click', function() {
-                window.location.href = 'styd.html';
-            });
-        </script>
+            <script>
+                document.getElementById('Stu1').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'styd.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('styd.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
+                });
+            </script>
             <div class="text-wrapper-42"id="Abi1">Абітурієнту</div>
-        <script>
-            document.getElementById('Abi1').addEventListener('click', function() {
-                window.location.href = 'abitur.html';
-            });
-        </script>
+            <script>
+                document.getElementById('Abi1').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'abitur.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('abitur.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
+                });
+            </script>
             <div class="text-wrapper-43"id="Blog">Блог</div>
-        <script>
-            document.getElementById('Blog').addEventListener('click', function() {
-                window.location.href = 'bloh.html';
-            });
-        </script>
+            <script>
+                document.getElementById('Blog').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'bloh.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('bloh.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
+                });
+            </script>
             <div class="text-wrapper-44">Контакти</div>
             <img class="gerb-new" src="img/logo.png" />
             <div class="text-wrapper-45">121</div>
@@ -290,8 +335,17 @@
                 <div class="text-wrapper-49">181</div>
                 <div class="text-wrapper-50"id="proff5">Харчові технології</div>
                 <script>
-                    document.getElementById('proff5').addEventListener('click', function() {
-                        window.location.href = 'ht.html';
+                    document.getElementById('proff5').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'ht.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('ht.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
             </div>
@@ -299,39 +353,93 @@
             <div class="text-wrapper-52">123</div>
             <div class="text-wrapper-53"<div class="futertext-9"id="proff1">Інженерія програмного забезпечення</div>
             <script>
-                document.getElementById('proff1').addEventListener('click', function() {
-                    window.location.href = 'ipz.html';
+                document.getElementById('proff1').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'ipz.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('ipz.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-wrapper-54"id="proff2">Підприємництво та торгівля</div>
             <script>
-                document.getElementById('proff2').addEventListener('click', function() {
-                    window.location.href = 'ptt.html';
+                document.getElementById('proff2').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'ptt.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('ptt.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-wrapper-55"id="proff3">Електроенергетика, електротехніка та електромеханіка</div>
             <script>
-                document.getElementById('proff3').addEventListener('click', function() {
-                    window.location.href = 'ele.html';
+                document.getElementById('proff3').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'ele.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('ele.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-wrapper-56"id="proff4">Маркетинг</div>
             <script>
-                document.getElementById('proff4').addEventListener('click', function() {
-                    window.location.href = 'mar.html';
+                document.getElementById('proff4').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'mar.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('mar.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-wrapper-57">Перший в<br />незалежній Україні<br />коледж</div>
             <div class="text-wrapper-58"id="proff6">Автоматизація, комп’ютерно-інтегровані<br />технології та робототехніка</div>
             <script>
-                document.getElementById('proff6').addEventListener('click', function() {
-                    window.location.href = 'avtomat.html';
+                document.getElementById('proff6').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'avtomat.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('avtomat.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-wrapper-59"id="proff7">Комп’ютерна інженерія</div>
             <script>
-                document.getElementById('proff7').addEventListener('click', function() {
-                    window.location.href = 'ki.html';
+                document.getElementById('proff7').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'ki.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('ki.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <iframe class="image-3" <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5149.580468684217!2d24.07179148857456!3d49.80881117786951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae81c20a2ca41%3A0x29e04fd364c34bda!2z0KLQtdGF0L3RltGH0L3QuNC5INGE0LDRhdC-0LLQuNC5INC60L7Qu9C10LTQtg!5e0!3m2!1suk!2sua!4v1718252415886!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>

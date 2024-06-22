@@ -144,8 +144,17 @@
                         <div class="heading-link">
                             <a><div class="text-wrapper-10"id="b1">початок Training workshop</div></a>
                             <script>
-                                document.getElementById('b1').addEventListener('click', function() {
-                                    window.location.href = 'novina.html';
+                                document.getElementById('b1').addEventListener('mousedown', function(event) {
+                                    if (event.button === 0) {
+                                        window.location.href = 'novina.html';
+                                    } else if (event.button === 1) {
+                                        var newTab = window.open('novina.html', '_blank');
+                                        if (newTab) {
+                                            newTab.blur();
+                                            window.focus();
+                                        }
+                                        event.preventDefault();
+                                    }
                                 });
                             </script>
                         </div>
@@ -155,8 +164,17 @@
                         <div class="link">
                             <a><div class="text-wrapper-9"id="b2">Читати Більше</div></a>
                             <script>
-                                document.getElementById('b2').addEventListener('click', function() {
-                                    window.location.href = 'novina.html';
+                                document.getElementById('b2').addEventListener('mousedown', function(event) {
+                                    if (event.button === 0) {
+                                        window.location.href = 'novina.html';
+                                    } else if (event.button === 1) {
+                                        var newTab = window.open('novina.html', '_blank');
+                                        if (newTab) {
+                                            newTab.blur();
+                                            window.focus();
+                                        }
+                                        event.preventDefault();
+                                    }
                                 });
                             </script>
                         </div>
@@ -241,14 +259,28 @@
                 </div>
             </div>
             <div class="group-5">
-                <div class="view">
-                    <img class="figure-link-insta" src="img/bloh-inst1.png">
-                    <img class="figure-link-insta-2" src="img/bloh-inst2.png">
-                    <img class="figure-link-insta-3" src="img/bloh-inst3.png">
-                    <img class="figure-link-insta-4" src="img/bloh-inst4.png">
-                    <img class="figure-link-insta-5" src="img/bloh-inst5.png">
-                    <img class="figure-link-insta-6" src="img/bloh-inst6.png">
+                <div class="view" id="inst">
+                    <img class="figure-link-insta" src="img/inst.jpg">
+                    <img class="figure-link-insta-2" src="img/inst1.jpg">
+                    <img class="figure-link-insta-3" src="img/inst2.jpg">
+                    <img class="figure-link-insta-4" src="img/inst3.jpg">
+                    <img class="figure-link-insta-5" src="img/inst4.jpg">
+                    <img class="figure-link-insta-6" src="img/inst5.jpg">
                     <div class="heading-instagram">Instagram :</div>
+                    <script>
+                        document.getElementById('inst').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'https://www.instagram.com/techcol.lviv/?hl=uk';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('https://www.instagram.com/techcol.lviv/?hl=uk');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
+                        });
+                    </script>
                 </div>
                 <div class="aside">
                     <div class="heading-recent">Нові пости :</div>
@@ -285,33 +317,78 @@
                 <div class="group-7">
                     <div class="text-wrapper-28"id="Pro1">Про нас</div>
                     <script>
-                        document.getElementById('Pro1').addEventListener('click', function() {
-                            window.location.href = 'pro_nas.html';
+                        document.getElementById('Pro1').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'pro_nas.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('pro_nas.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
 
                     <div class="text-wrapper-29"id="Kon1">Контакти</div>
                     <script>
-                        document.getElementById('Kon1').addEventListener('click', function() {
-                            window.location.href = 'kontakt.html';
+                        document.getElementById('Kon1').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'kontakt.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('kontakt.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                     <div class="text-wrapper-30"id="Stu1">Студенту</div>
                     <script>
-                        document.getElementById('Stu1').addEventListener('click', function() {
-                            window.location.href = 'styd.html';
+                        document.getElementById('Stu1').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'styd.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('styd.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                     <div class="text-wrapper-31"id="Abi1">Абітурієнту</div>
                     <script>
-                        document.getElementById('Abi1').addEventListener('click', function() {
-                            window.location.href = 'abitur.html';
+                        document.getElementById('Abi1').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'abitur.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('abitur.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                     <div class="text-wrapper-32"id="Blog">Блог</div>
                     <script>
-                        document.getElementById('Blog').addEventListener('click', function() {
-                            window.location.href = 'bloh.html';
+                        document.getElementById('Blog').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'bloh.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('bloh.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                 </div>
@@ -375,44 +452,107 @@
                     <div class="group-20">
                         <div class="text-wrapper-32"<div class="futertext-9"id="proff1">Інженерія програмного забезпечення</div>
                         <script>
-                            document.getElementById('proff1').addEventListener('click', function() {
-                                window.location.href = 'ipz.html';
+                            document.getElementById('proff1').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'ipz.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('ipz.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
                             });
                         </script>
                         <div class="text-wrapper-29"id="proff2">Підприємництво та торгівля</div>
                         <script>
-                            document.getElementById('proff2').addEventListener('click', function() {
-                                window.location.href = 'ptt.html';
+                            document.getElementById('proff2').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'ptt.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('ptt.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
                             });
                         </script>
                         <div class="text-wrapper-31"id="proff3">Електроенергетика, електротехніка та електромеханіка</div>
                         <script>
-                            document.getElementById('proff3').addEventListener('click', function() {
-                                window.location.href = 'ele.html';
+                            document.getElementById('proff3').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'ele.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('ele.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
                             });
                         </script>
                         <div class="text-wrapper-28"id="proff4">Маркетинг</div>
                         <script>
-                            document.getElementById('proff4').addEventListener('click', function() {
-                                window.location.href = 'mar.html';
+                            document.getElementById('proff4').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'mar.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('mar.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
                             });
                         </script>
                         <div class="text-wrapper-44"id="proff5">Харчові технології</div>
                         <script>
-                            document.getElementById('proff5').addEventListener('click', function() {
-                                window.location.href = 'ht.html';
+                            document.getElementById('proff5').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'ht.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('ht.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
                             });
                         </script>
                         <div class="text-wrapper-45"id="proff6">Автоматизація, комп’ютерно-інтегровані<br />технології та робототехніка</div>
                         <script>
-                            document.getElementById('proff6').addEventListener('click', function() {
-                                window.location.href = 'avtomat.html';
+                            document.getElementById('proff6').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'avtomat.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('avtomat.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
                             });
                         </script>
                         <div class="text-wrapper-30"id="proff7">Комп’ютерна інженерія</div>
                         <script>
-                            document.getElementById('proff7').addEventListener('click', function() {
-                                window.location.href = 'ki.html';
+                            document.getElementById('proff7').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'ki.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('ki.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
                             });
                         </script>
                     </div>

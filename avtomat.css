@@ -126,6 +126,7 @@
     letter-spacing: 1.6px;
     line-height: 23.8px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .div-wrapper .vertical-divider {
@@ -153,6 +154,7 @@
     letter-spacing: 1.6px;
     line-height: 23.8px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .div-wrapper .vertical-divider-2 {
@@ -494,6 +496,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .div-wrapper .text-wrapper-15 {
@@ -507,6 +510,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .div-wrapper .text-wrapper-16 {
@@ -520,6 +524,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .div-wrapper .text-wrapper-17 {
@@ -533,6 +538,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .div-wrapper .text-wrapper-18 {
@@ -546,6 +552,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .div-wrapper .group-5 {
@@ -959,7 +966,7 @@
     left: 55px;
 }
 
-.div-wrapper .text-wrapper-30 {
+.text-wrapper-30 {
     position: absolute;
     width: 173px;
     top: 198px;
@@ -971,9 +978,10 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.div-wrapper .text-wrapper-31 {
+.text-wrapper-31 {
     position: absolute;
     top: 145px;
     left: 1px;
@@ -983,9 +991,10 @@
     font-size: 16px;
     letter-spacing: -0.18px;
     line-height: 24px;
+    cursor: pointer;
 }
 
-.div-wrapper .text-wrapper-32 {
+.text-wrapper-32 {
     position: absolute;
     top: 0;
     left: 0;

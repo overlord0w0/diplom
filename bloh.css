@@ -356,6 +356,7 @@
     text-align: center;
     letter-spacing: -0.56px;
     line-height: normal;
+    cursor: pointer;
 }
 
 .blog .article-2 {
@@ -420,6 +421,7 @@
     font-weight: 700;
     color: #22281e;
     letter-spacing: -1.05px;
+    cursor: pointer;
 }
 
 .blog .p {
@@ -922,6 +924,7 @@
     border-radius: 7px;
     overflow: hidden;
     box-shadow: 0px 0px 8px 3px #22281e14;
+    cursor: pointer;
 }
 
 .blog .figure-link-insta {
@@ -1108,6 +1111,7 @@
     position: absolute;
     width: 320px;
     left: 0;
+    cursor: pointer;
 }
 
 .blog .link-new-blog-JPG-9 {
@@ -1249,6 +1253,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .text-wrapper-29 {
@@ -1262,6 +1267,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .text-wrapper-30 {
@@ -1275,6 +1281,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .text-wrapper-31 {
@@ -1288,6 +1295,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .text-wrapper-32 {
@@ -1301,6 +1309,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .group-8 {
@@ -1726,6 +1735,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .text-wrapper-45 {
@@ -1738,6 +1748,7 @@
     font-size: 16px;
     letter-spacing: -0.18px;
     line-height: 24px;
+    cursor: pointer;
 }
 
 .blog .text-wrapper-46 {

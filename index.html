@@ -735,43 +735,83 @@
             <div class="group-27">
                 <div class="futertext-12" id="Pro1">Про нас</div>
                 <script>
-                    document.getElementById('Pro1').addEventListener('click', function() {
-                        window.location.href = 'pro_nas.html';
+                    document.getElementById('Pro1').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'pro_nas.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('pro_nas.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
                 <div class="futertext-10"  id="Kon1">Контакти</div>
                 <script>
-                    document.getElementById('Kon1').addEventListener('click', function() {
-                        window.location.href = 'kontakt.html';
+                    document.getElementById('Kon1').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'kontakt.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('kontakt.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
                 <div class="futertext-15" id="Stu1">Студенту</div>
                 <script>
-                    document.getElementById('Stu1').addEventListener('click', function() {
-                        window.location.href = 'styd.html';
+                    document.getElementById('Stu1').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'styd.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('styd.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
                 <div class="futertext-11"  id="Abi1">Абітурієнту</div>
                 <script>
-                    document.getElementById('Abi1').addEventListener('click', function() {
-                        window.location.href = 'abitur.html';
+                    document.getElementById('Abi1').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'abitur.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('abitur.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
                 <div class="futertext-9"id="Blog">Блог</div>
                 <script>
-                    document.getElementById('Blog').addEventListener('click', function() {
-                        window.location.href = 'bloh.html';
+                    document.getElementById('Blog').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'bloh.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('bloh.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
             </div>
         </div>
         <div class="group-28">
             <div class="futertitle-2"id="kontik">Контакти</div>
-            <script>
-                document.getElementById('kontik').addEventListener('click', function() {
-                    window.location.href = 'kontakt.html';
-                });
-            </script>
             <div class="group-29">
                 <div class="group-30">
                     <iframe class="futerimage-img" <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5149.580468684217!2d24.07179148857456!3d49.80881117786951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae81c20a2ca41%3A0x29e04fd364c34bda!2z0KLQtdGF0L3RltGH0L3QuNC5INGE0LDRhdC-0LLQuNC5INC60L7Qu9C10LTQtg!5e0!3m2!1suk!2sua!4v1718252415886!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>

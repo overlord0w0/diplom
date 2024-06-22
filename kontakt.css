@@ -374,6 +374,7 @@
     font-weight: 500;
     font-size: 16px;
     text-align: center;
+    cursor: pointer;
 }
 
 .contakt .label {
@@ -453,9 +454,22 @@
     height: 408px;
     top: 223px;
     left: 50px;
-    background-image: url(./img/link-contact-page-img-01-jpg.png);
-    background-size: cover;
-    background-position: 50% 50%;
+    background: url(./img/link-contact-page-img-01-jpg.png) no-repeat center/cover;
+    /* Встановлення з-index, щоб псевдоелемент був зверху */
+    z-index: 0;
+}
+
+/* Псевдоелемент для градієнта */
+.contakt .overlap-2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, #14452F, rgba(20, 69, 47, 0)); /* Градієнт знизу вгору */
+    z-index: 1;
+    pointer-events: none; /* Дозволяє кліки проходити крізь градієнт */
 }
 
 .contakt .shape-img {
@@ -464,6 +478,7 @@
     height: 408px;
     top: 0;
     left: 0;
+    z-index: -1; /* Забезпечує фонове розташування зображення */
 }
 
 .contakt .SVG {
@@ -472,6 +487,7 @@
     height: 68px;
     top: 323px;
     left: 42px;
+    z-index: 2; /* Забезпечує верхнє розташування SVG */
 }
 
 .contakt .text-wrapper-13 {
@@ -482,11 +498,12 @@
     left: 130px;
     font-family: "Manrope-Bold", Helvetica;
     font-weight: 700;
-    color: #4a5659;
+    color: #e5e5e5;
     font-size: 20px;
     letter-spacing: 0;
     line-height: 34px;
     white-space: nowrap;
+    z-index: 2; /* Забезпечує верхнє розташування тексту */
 }
 
 .contakt .heading-link-info {
@@ -497,11 +514,12 @@
     left: 130px;
     font-family: "DM Sans-Medium", Helvetica;
     font-weight: 500;
-    color: #4a5659;
+    color: #e5e5e5;
     font-size: 16px;
     letter-spacing: -0.56px;
     line-height: 19.2px;
     white-space: nowrap;
+    z-index: 2; /* Забезпечує верхнє розташування тексту */
 }
 
 .contakt .overlap-3 {
@@ -970,6 +988,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .contakt .text-wrapper-25 {
@@ -983,6 +1002,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .contakt .text-wrapper-26 {
@@ -996,6 +1016,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .contakt .text-wrapper-27 {
@@ -1009,6 +1030,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .contakt .text-wrapper-28 {
@@ -1022,6 +1044,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .contakt .group-4 {
@@ -1439,6 +1462,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .contakt .text-wrapper-41 {
@@ -1451,6 +1475,7 @@
     font-size: 16px;
     letter-spacing: -0.18px;
     line-height: 24px;
+    cursor: pointer;
 }
 
 .contakt .text-wrapper-42 {

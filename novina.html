@@ -124,10 +124,6 @@
     </div>
     <div class="group-2">
         <div class="group-3">
-            <div class="section">
-                <div class="heading-share-it">Поділитись:</div>
-                <img class="list" src="img/list.png" />
-            </div>
             <div class="group-4">
                 <img class="new-blog-JPG-webp" src="img/novinaimage20.png">
                 <div class="background">
@@ -209,14 +205,28 @@
                     </div>
                 </div>
             </div>
-            <div class="view">
-                <img class="figure-link-insta" src="img/bloh-inst1.png"></img>
-                <img class="figure-link-insta-2" src="img/bloh-inst2.png"></img>
-                <img class="figure-link-insta-3" src="img/bloh-inst3.png"></img>
-                <img class="figure-link-insta-4" src="img/bloh-inst4.png"></img>
-                <img class="figure-link-insta-5" src="img/bloh-inst5.png"></img>
-                <img class="figure-link-insta-6" src="img/bloh-inst6.png"></img>
+            <div class="view" id="inst">
+                <img class="figure-link-insta" src="img/inst.jpg"></img>
+                <img class="figure-link-insta-2" src="img/inst1.jpg"></img>
+                <img class="figure-link-insta-3" src="img/inst2.jpg"></img>
+                <img class="figure-link-insta-4" src="img/inst3.jpg"></img>
+                <img class="figure-link-insta-5" src="img/inst4.jpg"></img>
+                <img class="figure-link-insta-6" src="img/inst5.jpg"></img>
                 <div class="heading-instagram">Instagram :</div>
+                <script>
+                    document.getElementById('inst').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'https://www.instagram.com/techcol.lviv/?hl=uk';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('https://www.instagram.com/techcol.lviv/?hl=uk');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
+                    });
+                </script>
             </div>
         </div>
     </div>

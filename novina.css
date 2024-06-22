@@ -570,6 +570,7 @@
     position: absolute;
     width: 320px;
     left: 0;
+    cursor: pointer;
 }
 
 .novina .link-new-blog-JPG-2 {
@@ -672,6 +673,7 @@
     border-radius: 7px;
     overflow: hidden;
     box-shadow: 0px 0px 8px 3px #22281e14;
+    cursor: pointer;
 }
 
 .novina .figure-link-insta {
@@ -804,6 +806,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .novina .text-wrapper-15 {
@@ -817,6 +820,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .novina .text-wrapper-16 {
@@ -830,6 +834,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .novina .text-wrapper-17 {
@@ -843,6 +848,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .novina .text-wrapper-18 {
@@ -856,6 +862,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .novina .group-9 {
@@ -1281,6 +1288,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .novina .text-wrapper-32 {
@@ -1293,6 +1301,7 @@
     font-size: 16px;
     letter-spacing: -0.18px;
     line-height: 24px;
+    cursor: pointer;
 }
 
 .novina .text-wrapper-33 {
