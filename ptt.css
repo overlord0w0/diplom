@@ -456,7 +456,7 @@
     left: 1115px;
 }
 
-.screen .text-wrapper-11 {
+.screen .text-wrapper-13 {
     position: absolute;
     top: 0;
     left: 0;
@@ -477,7 +477,7 @@
     left: 0;
 }
 
-.screen .text-wrapper-12 {
+.screen .text-wrapper-14 {
     position: absolute;
     top: 0;
     left: 0;
@@ -488,9 +488,10 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.screen .text-wrapper-13 {
+.screen .text-wrapper-15 {
     position: absolute;
     top: 29px;
     left: 0;
@@ -501,9 +502,10 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.screen .text-wrapper-14 {
+.screen .text-wrapper-16 {
     position: absolute;
     top: 87px;
     left: 0;
@@ -514,9 +516,10 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.screen .text-wrapper-15 {
+.screen .text-wrapper-17 {
     position: absolute;
     top: 116px;
     left: 0;
@@ -527,9 +530,10 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.screen .text-wrapper-16 {
+.screen .text-wrapper-18 {
     position: absolute;
     top: 58px;
     left: 0;
@@ -540,6 +544,7 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .screen .group-5 {
@@ -630,7 +635,7 @@
     left: 0;
 }
 
-.screen .text-wrapper-17 {
+.screen .text-wrapper-19 {
     width: 139px;
     position: absolute;
     height: 32px;
@@ -706,7 +711,7 @@
     left: 0;
 }
 
-.screen .text-wrapper-18 {
+.screen .text-wrapper-20 {
     width: 146px;
     position: absolute;
     height: 32px;
@@ -753,7 +758,7 @@
     object-fit: cover;
 }
 
-.screen .text-wrapper-19 {
+.screen .text-wrapper-21 {
     position: absolute;
     top: 136px;
     left: 0;
@@ -773,13 +778,13 @@
     left: 0;
 }
 
-.screen .overlap-4 {
+.screen .overlap-3 {
     position: relative;
     width: 1920px;
     height: 26px;
 }
 
-.screen .overlap-group-2 {
+.screen .overlap-group-3 {
     position: absolute;
     width: 1920px;
     height: 26px;
@@ -787,7 +792,7 @@
     left: 0;
 }
 
-.screen .text-wrapper-20 {
+.screen .text-wrapper-22 {
     position: absolute;
     width: 202px;
     height: 25px;
@@ -838,7 +843,7 @@
     left: 535px;
 }
 
-.screen .overlap-5 {
+.screen .overlap-4 {
     position: absolute;
     width: 509px;
     height: 228px;
@@ -854,7 +859,7 @@
     left: 0;
 }
 
-.screen .text-wrapper-21 {
+.screen .text-wrapper-23 {
     width: 20px;
     top: 58px;
     position: absolute;
@@ -867,7 +872,7 @@
     line-height: 15px;
 }
 
-.screen .text-wrapper-22 {
+.screen .text-wrapper-24 {
     width: 23px;
     top: 29px;
     position: absolute;
@@ -880,7 +885,7 @@
     line-height: 15px;
 }
 
-.screen .text-wrapper-23 {
+.screen .text-wrapper-25 {
     width: 20px;
     top: 116px;
     position: absolute;
@@ -893,7 +898,7 @@
     line-height: 15px;
 }
 
-.screen .text-wrapper-24 {
+.screen .text-wrapper-26 {
     width: 23px;
     top: 0;
     position: absolute;
@@ -906,7 +911,7 @@
     line-height: 15px;
 }
 
-.screen .text-wrapper-25 {
+.screen .text-wrapper-27 {
     width: 136px;
     top: 198px;
     position: absolute;
@@ -919,7 +924,7 @@
     line-height: 15px;
 }
 
-.screen .text-wrapper-26 {
+.screen .text-wrapper-28 {
     width: 21px;
     top: 145px;
     position: absolute;
@@ -932,7 +937,7 @@
     line-height: 15px;
 }
 
-.screen .text-wrapper-27 {
+.screen .text-wrapper-29 {
     width: 22px;
     top: 87px;
     position: absolute;
@@ -953,7 +958,7 @@
     left: 55px;
 }
 
-.screen .text-wrapper-28 {
+.screen .text-wrapper-30 {
     position: absolute;
     width: 173px;
     top: 198px;
@@ -965,9 +970,10 @@
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.screen .text-wrapper-29 {
+.screen .text-wrapper-31 {
     position: absolute;
     top: 145px;
     left: 1px;
@@ -977,9 +983,10 @@
     font-size: 16px;
     letter-spacing: -0.18px;
     line-height: 24px;
+    cursor: pointer;
 }
 
-.screen .text-wrapper-30 {
+.screen .text-wrapper-32 {
     position: absolute;
     top: 0;
     left: 0;

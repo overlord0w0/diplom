@@ -447,7 +447,7 @@
     left: 825px;
 }
 
-.div-wrapper .futer {
+.futer {
     position: absolute;
     width: 1920px;
     height: 468px;
@@ -456,7 +456,7 @@
     background-color: #363636;
 }
 
-.div-wrapper .group-3 {
+.group-3 {
     position: absolute;
     width: 147px;
     height: 204px;
@@ -464,7 +464,7 @@
     left: 1115px;
 }
 
-.div-wrapper .text-wrapper-13 {
+.text-wrapper-13 {
     position: absolute;
     top: 0;
     left: 0;
@@ -477,7 +477,7 @@
     white-space: nowrap;
 }
 
-.div-wrapper .group-4 {
+.group-4 {
     position: absolute;
     width: 100px;
     height: 140px;
@@ -485,7 +485,7 @@
     left: 0;
 }
 
-.div-wrapper .text-wrapper-14 {
+.text-wrapper-14 {
     position: absolute;
     top: 0;
     left: 0;
@@ -499,7 +499,7 @@
     cursor: pointer;
 }
 
-.div-wrapper .text-wrapper-15 {
+.text-wrapper-15 {
     position: absolute;
     top: 29px;
     left: 0;
@@ -513,7 +513,7 @@
     cursor: pointer;
 }
 
-.div-wrapper .text-wrapper-16 {
+.text-wrapper-16 {
     position: absolute;
     top: 87px;
     left: 0;
@@ -527,7 +527,7 @@
     cursor: pointer;
 }
 
-.div-wrapper .text-wrapper-17 {
+.text-wrapper-17 {
     position: absolute;
     top: 116px;
     left: 0;
@@ -541,7 +541,7 @@
     cursor: pointer;
 }
 
-.div-wrapper .text-wrapper-18 {
+.text-wrapper-18 {
     position: absolute;
     top: 58px;
     left: 0;
@@ -555,7 +555,7 @@
     cursor: pointer;
 }
 
-.div-wrapper .group-5 {
+.group-5 {
     position: absolute;
     width: 403px;
     height: 331px;
@@ -563,7 +563,7 @@
     left: 1469px;
 }
 
-.div-wrapper .group-6 {
+.group-6 {
     position: absolute;
     width: 400px;
     height: 282px;
@@ -571,7 +571,7 @@
     left: 1px;
 }
 
-.div-wrapper .group-7 {
+.group-7 {
     position: absolute;
     width: 182px;
     height: 282px;
@@ -579,7 +579,7 @@
     left: 218px;
 }
 
-.div-wrapper .image-3 {
+.image-3 {
     width: 182px;
     height: 135px;
     top: 0;
@@ -588,7 +588,7 @@
     object-fit: cover;
 }
 
-.div-wrapper .image-4 {
+.image-4 {
     width: 182px;
     height: 135px;
     top: 147px;
@@ -597,7 +597,7 @@
     object-fit: cover;
 }
 
-.div-wrapper .group-8 {
+.group-8 {
     position: absolute;
     width: 218px;
     height: 125px;
@@ -605,7 +605,7 @@
     left: 0;
 }
 
-.div-wrapper .group-9 {
+.group-9 {
     position: absolute;
     width: 222px;
     height: 65px;
@@ -613,7 +613,7 @@
     left: 0;
 }
 
-.div-wrapper .element {
+.element {
     position: absolute;
     width: 174px;
     height: 65px;
@@ -627,7 +627,7 @@
     line-height: 32.4px;
 }
 
-.div-wrapper .symbol {
+.symbol {
     width: 18px;
     top: 21px;
     position: absolute;
@@ -635,7 +635,7 @@
     left: 0;
 }
 
-.div-wrapper .group-10 {
+.group-10 {
     position: absolute;
     width: 186px;
     height: 32px;
@@ -643,7 +643,7 @@
     left: 0;
 }
 
-.div-wrapper .text-wrapper-19 {
+.text-wrapper-19 {
     width: 139px;
     position: absolute;
     height: 32px;
@@ -658,7 +658,7 @@
     white-space: nowrap;
 }
 
-.div-wrapper .symbol-2 {
+.symbol-2 {
     width: 24px;
     top: 5px;
     position: absolute;
@@ -666,7 +666,7 @@
     left: 0;
 }
 
-.div-wrapper .group-11 {
+.group-11 {
     position: absolute;
     width: 218px;
     height: 124px;
@@ -674,7 +674,7 @@
     left: 0;
 }
 
-.div-wrapper .group-12 {
+.group-12 {
     position: absolute;
     width: 222px;
     height: 82px;
@@ -682,7 +682,7 @@
     left: 0;
 }
 
-.div-wrapper .element-2 {
+.element-2 {
     position: absolute;
     width: 175px;
     height: 82px;
@@ -696,7 +696,7 @@
     line-height: 32.4px;
 }
 
-.div-wrapper .symbol-3 {
+.symbol-3 {
     width: 19px;
     top: 33px;
     font-family: "Font Awesome 5 Free-Solid", Helvetica;
@@ -711,7 +711,7 @@
     left: 0;
 }
 
-.div-wrapper .group-13 {
+.group-13 {
     position: absolute;
     width: 193px;
     height: 32px;
@@ -719,7 +719,7 @@
     left: 0;
 }
 
-.div-wrapper .text-wrapper-20 {
+.text-wrapper-20 {
     width: 146px;
     position: absolute;
     height: 32px;
@@ -734,7 +734,7 @@
     white-space: nowrap;
 }
 
-.div-wrapper .symbol-4 {
+.symbol-4 {
     width: 24px;
     top: 5px;
     font-family: "Font Awesome 5 Free-Solid", Helvetica;
@@ -749,7 +749,7 @@
     left: 0;
 }
 
-.div-wrapper .group-14 {
+.group-14 {
     position: absolute;
     width: 150px;
     height: 208px;
@@ -757,7 +757,7 @@
     left: 245px;
 }
 
-.div-wrapper .gerb-new {
+.gerb-new {
     position: absolute;
     width: 125px;
     height: 127px;
@@ -766,7 +766,7 @@
     object-fit: cover;
 }
 
-.div-wrapper .text-wrapper-21 {
+.text-wrapper-21 {
     position: absolute;
     top: 136px;
     left: 0;
@@ -778,7 +778,7 @@
     line-height: 24px;
 }
 
-.div-wrapper .overlap-wrapper {
+.overlap-wrapper {
     position: absolute;
     width: 1924px;
     height: 26px;
@@ -786,13 +786,13 @@
     left: 0;
 }
 
-.div-wrapper .overlap-3 {
+.overlap-3 {
     position: relative;
     width: 1920px;
     height: 26px;
 }
 
-.div-wrapper .overlap-group-3 {
+.overlap-group-3 {
     position: absolute;
     width: 1920px;
     height: 26px;
@@ -800,7 +800,7 @@
     left: 0;
 }
 
-.div-wrapper .text-wrapper-22 {
+.text-wrapper-22 {
     position: absolute;
     width: 202px;
     height: 25px;
@@ -815,7 +815,7 @@
     white-space: nowrap;
 }
 
-.div-wrapper .line {
+.line {
     position: absolute;
     width: 1920px;
     height: 2px;
@@ -824,7 +824,7 @@
     object-fit: cover;
 }
 
-.div-wrapper .element-3 {
+.element-3 {
     position: absolute;
     width: 237px;
     height: 24px;
@@ -839,11 +839,11 @@
     white-space: nowrap;
 }
 
-.div-wrapper .span {
+.span {
     letter-spacing: -0.13px;
 }
 
-.div-wrapper .group-15 {
+.group-15 {
     position: absolute;
     width: 497px;
     height: 284px;
@@ -851,7 +851,7 @@
     left: 535px;
 }
 
-.div-wrapper .overlap-4 {
+.overlap-4 {
     position: absolute;
     width: 509px;
     height: 228px;
@@ -859,7 +859,7 @@
     left: 0;
 }
 
-.div-wrapper .group-16 {
+.group-16 {
     position: absolute;
     width: 150px;
     height: 221px;
@@ -867,7 +867,7 @@
     left: 0;
 }
 
-.div-wrapper .text-wrapper-23 {
+.text-wrapper-23 {
     width: 20px;
     top: 58px;
     position: absolute;
@@ -880,7 +880,7 @@
     line-height: 15px;
 }
 
-.div-wrapper .text-wrapper-24 {
+.text-wrapper-24 {
     width: 23px;
     top: 29px;
     position: absolute;
@@ -893,7 +893,7 @@
     line-height: 15px;
 }
 
-.div-wrapper .text-wrapper-25 {
+.text-wrapper-25 {
     width: 20px;
     top: 116px;
     position: absolute;
@@ -906,7 +906,7 @@
     line-height: 15px;
 }
 
-.div-wrapper .text-wrapper-26 {
+.text-wrapper-26 {
     width: 23px;
     top: 0;
     position: absolute;
@@ -919,7 +919,7 @@
     line-height: 15px;
 }
 
-.div-wrapper .text-wrapper-27 {
+.text-wrapper-27 {
     width: 136px;
     top: 198px;
     position: absolute;
@@ -932,7 +932,7 @@
     line-height: 15px;
 }
 
-.div-wrapper .text-wrapper-28 {
+.text-wrapper-28 {
     width: 21px;
     top: 145px;
     position: absolute;
@@ -945,7 +945,7 @@
     line-height: 15px;
 }
 
-.div-wrapper .text-wrapper-29 {
+.text-wrapper-29 {
     width: 22px;
     top: 87px;
     position: absolute;
@@ -958,7 +958,7 @@
     line-height: 15px;
 }
 
-.div-wrapper .group-17 {
+.group-17 {
     position: absolute;
     width: 454px;
     height: 221px;

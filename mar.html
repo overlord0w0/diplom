@@ -174,46 +174,92 @@
     </div>
     <div class="futer">
         <div class="group-3">
-            <div class="text-wrapper-12">Навігація</div>
+            <div class="text-wrapper-13">Навігація</div>
             <div class="group-4">
-                <div class="text-wrapper-13"id="Pro1">Про нас</div>
+                <div class="text-wrapper-14"id="Pro1">Про нас</div>
                 <script>
-                    document.getElementById('Pro1').addEventListener('click', function() {
-                        window.location.href = 'pro_nas.html';
+                    document.getElementById('Pro1').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'pro_nas.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('pro_nas.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
-                <div class="text-wrapper-14"id="Kon1">Контакти</div>
+                <div class="text-wrapper-15"id="Kon1">Контакти</div>
                 <script>
-                    document.getElementById('Kon1').addEventListener('click', function() {
-                        window.location.href = 'kontakt.html';
+                    document.getElementById('Kon1').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'kontakt.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('kontakt.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
-                <div class="text-wrapper-15"id="Stu1">Студенту</div>
+
+                <div class="text-wrapper-16"id="Stu1">Студенту</div>
                 <script>
-                    document.getElementById('Stu1').addEventListener('click', function() {
-                        window.location.href = 'styd.html';
+                    document.getElementById('Stu1').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'styd.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('styd.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
-                <div class="text-wrapper-16"id="Abi1">Абітурієнту</div>
+                <div class="text-wrapper-17"id="Abi1">Абітурієнту</div>
                 <script>
-                    document.getElementById('Abi1').addEventListener('click', function() {
-                        window.location.href = 'abitur.html';
+                    document.getElementById('Abi1').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'abitur.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('abitur.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
-                <div class="text-wrapper-17"id="Blog">Блог</div>
+                <div class="text-wrapper-18"id="Blog">Блог</div>
                 <script>
-                    document.getElementById('Blog').addEventListener('click', function() {
-                        window.location.href = 'bloh.html';
+                    document.getElementById('Blog').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'bloh.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('bloh.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
             </div>
         </div>
         <div class="group-5">
-            <div class="text-wrapper-12">Контакти</div>
+            <div class="text-wrapper-13">Контакти</div>
             <div class="group-6">
                 <div class="group-7">
-                    <iframe class="image-2" <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5149.580468684217!2d24.07179148857456!3d49.80881117786951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae81c20a2ca41%3A0x29e04fd364c34bda!2z0KLQtdGF0L3RltGH0L3QuNC5INGE0LDRhdC-0LLQuNC5INC60L7Qu9C10LTQtg!5e0!3m2!1suk!2sua!4v1718252415886!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
-                    <iframe class="image-3" <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10384.952187115126!2d24.307231886602437!3d49.40440382574531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a7d84f3315eb3%3A0xfd0c236e1ace4969!2z0KLQtdGF0L3RltGH0L3QuNC5INC60L7Qu9C10LTQtiDQndCw0YbRltC-0L3QsNC70YzQvdC-0LPQviDRg9C90ZbQstC10YDRgdC40YLQtdGC0YMgwqvQm9GM0LLRltCy0YHRjNC60LAg0L_QvtC70ZbRgtC10YXQvdGW0LrQsMK7!5e0!3m2!1suk!2sua!4v1718252488346!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+                    <iframe class="image-3" <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5149.580468684217!2d24.07179148857456!3d49.80881117786951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae81c20a2ca41%3A0x29e04fd364c34bda!2z0KLQtdGF0L3RltGH0L3QuNC5INGE0LDRhdC-0LLQuNC5INC60L7Qu9C10LTQtg!5e0!3m2!1suk!2sua!4v1718252415886!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+                    <iframe class="image-4" <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10384.952187115126!2d24.307231886602437!3d49.40440382574531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a7d84f3315eb3%3A0xfd0c236e1ace4969!2z0KLQtdGF0L3RltGH0L3QuNC5INC60L7Qu9C10LTQtiDQndCw0YbRltC-0L3QsNC70YzQvdC-0LPQviDRg9C90ZbQstC10YDRgdC40YLQtdGC0YMgwqvQm9GM0LLRltCy0YHRjNC60LAg0L_QvtC70ZbRgtC10YXQvdGW0LrQsMK7!5e0!3m2!1suk!2sua!4v1718252488346!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
                 </div>
                 <div class="group-8">
                     <div class="group-9">
@@ -221,8 +267,8 @@
                         <img class="symbol" src="img/futericon1.png" />
                     </div>
                     <div class="group-10">
-                        <div class="text-wrapper-18">(032) 270-20-50</div>
-                        <img class="symbol-2" src="img/futericon2.png" />
+                        <div class="text-wrapper-19">(032) 270-20-50</div>
+                        <img class="symbol-2" src="img/futericon2.png"" />
                     </div>
                 </div>
                 <div class="group-11">
@@ -231,7 +277,7 @@
                         <img class="symbol-3"src="img/futericon1.png">
                     </div>
                     <div class="group-13">
-                        <div class="text-wrapper-19">(3239) 5-32-32</div>
+                        <div class="text-wrapper-20">(3239) 5-32-32</div>
                         <img class="symbol-4"src="img/futericon2.png">
                     </div>
                 </div>
@@ -239,12 +285,12 @@
         </div>
         <div class="group-14">
             <img class="gerb-new" src="img/logo.png" />
-            <div class="text-wrapper-20">Перший в<br />незалежній Україні<br />коледж</div>
+            <div class="text-wrapper-21">Перший в<br />незалежній Україні<br />коледж</div>
         </div>
         <div class="overlap-wrapper">
             <div class="overlap-3">
                 <div class="overlap-group-3">
-                    <div class="text-wrapper-21">Політика Конфеденційності</div>
+                    <div class="text-wrapper-22">Політика Конфеденційності</div>
                     <img class="line" src="img/line2.png" />
                 </div>
                 <p class="element-3">
@@ -255,60 +301,123 @@
         <div class="group-15">
             <div class="overlap-4">
                 <div class="group-16">
-                    <div class="text-wrapper-22">121</div>
-                    <div class="text-wrapper-23">076</div>
-                    <div class="text-wrapper-24">141</div>
-                    <div class="text-wrapper-25">075</div>
-                    <div class="text-wrapper-26">181</div>
-                    <div class="text-wrapper-27">174</div>
-                    <div class="text-wrapper-28">123</div>
+                    <div class="text-wrapper-23">121</div>
+                    <div class="text-wrapper-24">076</div>
+                    <div class="text-wrapper-25">141</div>
+                    <div class="text-wrapper-26">075</div>
+                    <div class="text-wrapper-27">181</div>
+                    <div class="text-wrapper-28">174</div>
+                    <div class="text-wrapper-29">123</div>
                 </div>
                 <div class="group-17">
-                    <div class="text-wrapper-17"id="proff1">Інженерія програмного забезпечення</div>
+                    <div class="text-wrapper-18"id="proff1">Інженерія програмного забезпечення</div>
                     <script>
-                        document.getElementById('proff1').addEventListener('click', function() {
-                            window.location.href = 'ipz.html';
+                        document.getElementById('proff1').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ipz.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ipz.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
-                    <div class="text-wrapper-14"id="proff2">Підприємництво та торгівля</div>
+                    <div class="text-wrapper-15"id="proff2">Підприємництво та торгівля</div>
                     <script>
-                        document.getElementById('proff2').addEventListener('click', function() {
-                            window.location.href = 'ptt.html';
+                        document.getElementById('proff2').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ptt.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ptt.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
-                    <div class="text-wrapper-16"id="proff3">Електроенергетика, електротехніка та електромеханіка</div>
+                    <div class="text-wrapper-17"id="proff3">Електроенергетика, електротехніка та електромеханіка</div>
                     <script>
-                        document.getElementById('proff3').addEventListener('click', function() {
-                            window.location.href = 'ele.html';
+                        document.getElementById('proff3').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ele.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ele.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
-                    <div class="text-wrapper-13"id="proff4">Маркетинг</div>
+                    <div class="text-wrapper-14"id="proff4">Маркетинг</div>
                     <script>
-                        document.getElementById('proff4').addEventListener('click', function() {
-                            window.location.href = 'mar.html';
+                        document.getElementById('proff4').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'mar.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('mar.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
-                    <div class="text-wrapper-29"id="proff5">Харчові технології</div>
+                    <div class="text-wrapper-30"id="proff5">Харчові технології</div>
                     <script>
-                        document.getElementById('proff5').addEventListener('click', function() {
-                            window.location.href = 'ht.html';
+                        document.getElementById('proff5').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ht.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ht.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
-                    <div class="text-wrapper-30"id="proff6">Автоматизація, комп’ютерно-інтегровані<br />технології та робототехніка</div>
+                    <div class="text-wrapper-31"id="proff6">Автоматизація, комп’ютерно-інтегровані<br />технології та робототехніка</div>
                     <script>
-                        document.getElementById('proff6').addEventListener('click', function() {
-                            window.location.href = 'avtomat.html';
+                        document.getElementById('proff6').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'avtomat.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('avtomat.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
-                    <div class="text-wrapper-15"id="proff7">Комп’ютерна інженерія</div>
+                    <div class="text-wrapper-16"id="proff7">Комп’ютерна інженерія</div>
                     <script>
-                        document.getElementById('proff7').addEventListener('click', function() {
-                            window.location.href = 'ki.html';
+                        document.getElementById('proff7').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ki.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ki.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                 </div>
             </div>
-            <div class="text-wrapper-31">Спеціальності</div>
+            <div class="text-wrapper-32">Спеціальності</div>
         </div>
     </div>
 </div>
