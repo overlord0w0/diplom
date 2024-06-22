@@ -14,39 +14,93 @@
             <img class="gerb" src="img/logo.png" />
             <div class="text-wrapper" id="Home">Головна</div>
             <script>
-                document.getElementById('Home').addEventListener('click', function() {
-                    window.location.href = 'index.html';
+                document.getElementById('Home').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'index.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('index.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="div"id="Pro">Про нас</div>
             <script>
-                document.getElementById('Pro').addEventListener('click', function() {
-                    window.location.href = 'pro_nas.html';
+                document.getElementById('Pro').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'pro_nas.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('pro_nas.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
 
             <div class="text-wrapper-2"id="Spe">Спеціальності</div>
             <script>
-                document.getElementById('Spe').addEventListener('click', function() {
-                    window.location.href = 'spe_vsi.html';
+                document.getElementById('Spe').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'spe_vsi.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('spe_vsi.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-wrapper-3"id="Stu">Студенту</div>
             <script>
-                document.getElementById('Stu').addEventListener('click', function() {
-                    window.location.href = 'styd.html';
+                document.getElementById('Stu').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'styd.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('styd.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-wrapper-4"id="Abi">Абітурієнту</div>
             <script>
-                document.getElementById('Abi').addEventListener('click', function() {
-                    window.location.href = 'abitur.html';
+                document.getElementById('Abi').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'abitur.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('abitur.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-wrapper-5"id="Kon">Контакти</div>
             <script>
-                document.getElementById('Kon').addEventListener('click', function() {
-                    window.location.href = 'kontakt.html';
+                document.getElementById('Kon').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'kontakt.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('kontakt.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
         </div>
@@ -208,7 +262,7 @@
                     <div class="overlap-group-3">
                         <img class="image" src="img/proimage20.png" />
                         <div class="paragraph-background">
-                            <div class="heading-link">Воронін</div>
+                            <div class="heading-link">Воронін Микола</div>
                             <div class="heading-social">Дизайнер</div>
                         </div>
                     </div>
@@ -217,7 +271,7 @@
                     <div class="overlap-group-3">
                         <img class="image" src="img/proimage22.png" />
                         <div class="paragraph-background">
-                            <div class="heading-link-2">Антоніна</div>
+                            <div class="heading-link-2">Бойчук Антоніна</div>
                             <div class="heading-math">Викладач С++</div>
                         </div>
                     </div>
@@ -226,7 +280,7 @@
                     <div class="overlap-2">
                         <div class="new-webp"><img class="image-2" src="img/proimage25.png" /></div>
                         <div class="paragraph-background-2">
-                            <div class="heading-link-3">Роман</div>
+                            <div class="heading-link-3">Голяка Роман</div>
                             <div class="heading-chemistry">Стартап Тренер</div>
                         </div>
                     </div>

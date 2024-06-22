@@ -226,7 +226,7 @@
 
 .screen .text-wrapper-3 {
     width: 64px;
-    left: 562px;
+    left: 623px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -235,11 +235,12 @@
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .screen .text-wrapper-4 {
     width: 96px;
-    left: 666px;
+    left: 728px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -248,11 +249,12 @@
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .screen .text-wrapper-5 {
     width: 112px;
-    left: 802px;
+    left: 831px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -261,11 +263,12 @@
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .screen .text-wrapper-6 {
     width: 74px;
-    left: 954px;
+    left: 983px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -274,11 +277,12 @@
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .screen .text-wrapper-7 {
     width: 90px;
-    left: 1068px;
+    left: 1097px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -287,11 +291,12 @@
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .screen .text-wrapper-8 {
     width: 72px;
-    left: 1198px;
+    left: 1227px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -300,6 +305,7 @@
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .screen .text-wrapper-9 {

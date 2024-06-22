@@ -30,8 +30,8 @@
     object-fit: cover;
 }
 
-.spe .text-wrapper {
-    left: 562px;
+.text-wrapper {
+    left: 623px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -41,10 +41,11 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.spe .div {
-    left: 666px;
+.div {
+    left: 728px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -54,10 +55,11 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.spe .text-wrapper-2 {
-    left: 802px;
+.text-wrapper-2 {
+    left: 831px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -67,10 +69,11 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.spe .text-wrapper-3 {
-    left: 954px;
+.text-wrapper-3 {
+    left: 983px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -80,10 +83,11 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.spe .text-wrapper-4 {
-    left: 1068px;
+.text-wrapper-4 {
+    left: 1097px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -93,10 +97,11 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.spe .text-wrapper-5 {
-    left: 1198px;
+.text-wrapper-5 {
+    left: 1227px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -106,6 +111,7 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .spe .group {

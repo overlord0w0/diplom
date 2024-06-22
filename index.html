@@ -15,38 +15,92 @@
             <img class="logo-img" src="img/logo.png" />
             <div class="text" id="Home">Головна</div>
             <script>
-                document.getElementById('Home').addEventListener('click', function() {
-                    window.location.href = 'index.html';
+                document.getElementById('Home').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'index.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('index.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-wrapper"  id="Pro">Про нас</div>
             <script>
-                document.getElementById('Pro').addEventListener('click', function() {
-                    window.location.href = 'pro_nas.html';
+                document.getElementById('Pro').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'pro_nas.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('pro_nas.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="div"  id="Spe">Спеціальності</div>
             <script>
-                document.getElementById('Spe').addEventListener('click', function() {
-                    window.location.href = 'spe_vsi.html';
+                document.getElementById('Spe').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'spe_vsi.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('spe_vsi.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-2"  id="Stu">Студенту</div>
             <script>
-                document.getElementById('Stu').addEventListener('click', function() {
-                    window.location.href = 'styd.html';
+                document.getElementById('Stu').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'styd.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('styd.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-3"  id="Abi">Абітурієнту</div>
             <script>
-                document.getElementById('Abi').addEventListener('click', function() {
-                    window.location.href = 'abitur.html';
+                document.getElementById('Abi').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'abitur.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('abitur.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
             <div class="text-4"  id="Kon">Контакти</div>
             <script>
-                document.getElementById('Kon').addEventListener('click', function() {
-                    window.location.href = 'kontakt.html';
+                document.getElementById('Kon').addEventListener('mousedown', function(event) {
+                    if (event.button === 0) {
+                        window.location.href = 'kontakt.html';
+                    } else if (event.button === 1) {
+                        var newTab = window.open('kontakt.html', '_blank');
+                        if (newTab) {
+                            newTab.blur();
+                            window.focus();
+                        }
+                        event.preventDefault();
+                    }
                 });
             </script>
         </div>
@@ -61,10 +115,18 @@
             </div>
         </button>
     </div>
-
     <script>
-        document.getElementById('submitButton').addEventListener('click', function() {
-            window.location.href = 'kontakt.html';
+        document.getElementById('submitButton').addEventListener('mousedown', function(event) {
+            if (event.button === 0) {
+                window.location.href = 'kontakt.html';
+            } else if (event.button === 1) {
+                var newTab = window.open('kontakt.html', '_blank');
+                if (newTab) {
+                    newTab.blur();
+                    window.focus();
+                }
+                event.preventDefault();
+            }
         });
     </script>
     <div class="about-us">
@@ -108,8 +170,17 @@
                 <div class="object"></div>
                 <div class="text-21"id="Kon2">Про нас</div>
                 <script>
-                    document.getElementById('Kon2').addEventListener('click', function() {
-                        window.location.href = 'pro_nas.html';
+                    document.getElementById('Kon2').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'pro_nas.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('pro_nas.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
             </div>
@@ -125,47 +196,92 @@
             <div class="group-2">
                 <div class="block-profession"id="prof1">
                     <img class="img-img" src="pgoto/Homeimg_prof1.png" />
-                    <div class="text-24">Підприємництво Та Торгівля</div>
+                    <div class="text-24">Підприємництво та торгівля</div>
                     <script>
-                        document.getElementById('prof1').addEventListener('click', function() {
-                            window.location.href = 'ptt.html';
+                        document.getElementById('prof1').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ptt.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ptt.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                 </div>
                 <div class="block-5"id="prof2">
                     <img class="img-img" src="pgoto/Homeimg_prof2.png" />
-                    <div class="text-25">Комп’ютерна Інженерія</div>
+                    <div class="text-25">Комп’ютерна інженерія</div>
                     <script>
-                        document.getElementById('prof2').addEventListener('click', function() {
-                            window.location.href = 'ki.html';
+                        document.getElementById('prof2').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ki.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ki.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                 </div>
                 <div class="block-6"id="prof3">
                     <img class="img-img" src="pgoto/Homeimg_prof3.png" />
-                    <div class="text-26">Інженерія Програмного Забезпеченя</div>
+                    <div class="text-26">Інженерія програмного забезпеченя</div>
                     <script>
-                        document.getElementById('prof3').addEventListener('click', function() {
-                            window.location.href = 'ipz.html';
+                        document.getElementById('prof3').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ipz.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ipz.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                 </div>
                 <div class="block-7"id="prof4">
                     <img class="img-img" src="pgoto/Homeimg_prof4.png" />
-                    <div class="text-27">Харчові Технології</div>
+                    <div class="text-27">Харчові технології</div>
                     <script>
-                        document.getElementById('prof4').addEventListener('click', function() {
-                            window.location.href = 'ht.html';
+                        document.getElementById('prof4').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ht.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ht.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                 </div>
                 <div class="block-8"id="prof5">
                     <div class="overlap-group-3">
                         <img class="img-prof-img" src="pgoto/Homeimg_prof5.png" />
-                        <div class="text-28">Автоматизація, Комп’ютерно-інтегровані<br />технології</div>
+                        <div class="text-28">Автоматизація, комп’ютерно-інтегровані<br />технології</div>
                         <script>
-                            document.getElementById('prof5').addEventListener('click', function() {
-                                window.location.href = 'avtomat.html';
+                            document.getElementById('prof5').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'avtomat.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('avtomat.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
                             });
                         </script>
                     </div>
@@ -174,8 +290,17 @@
                     <img class="img-img" src="pgoto/Homeimg_prof6.png" />
                     <div class="text-29">Електроенергетика</div>
                     <script>
-                        document.getElementById('prof6').addEventListener('click', function() {
-                            window.location.href = 'ele.html';
+                        document.getElementById('prof6').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ele.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ele.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                 </div>
@@ -183,15 +308,33 @@
                     <img class="img-img" src="pgoto/Homeimg_prof7.png" />
                     <div class="text-30">Маркетинг</div>
                     <script>
-                        document.getElementById('prof7').addEventListener('click', function() {
-                            window.location.href = 'mar.html';
+                        document.getElementById('prof7').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'mar.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('mar.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                 </div>
                 <div class="block-11"id="prof8"><div class="text-31">Відділення</div></div>
                 <script>
-                    document.getElementById('prof8').addEventListener('click', function() {
-                        window.location.href = 'spe_vsi.html';
+                    document.getElementById('prof8').addEventListener('mousedown', function(event) {
+                        if (event.button === 0) {
+                            window.location.href = 'spe_vsi.html';
+                        } else if (event.button === 1) {
+                            var newTab = window.open('spe_vsi.html', '_blank');
+                            if (newTab) {
+                                newTab.blur();
+                                window.focus();
+                            }
+                            event.preventDefault();
+                        }
                     });
                 </script>
             </div>
@@ -207,7 +350,7 @@
                 <div class="group-4">
                     <div class="overlap-group-4">
                         <img class="image-documents-img"  src="pgoto/image_documents.png" />
-                        <div class="text-32">Документи для поступлення</div>
+                        <div class="text-32">Документи для вступу</div>
                     </div>
                     <div class="group-5">
                         <div class="group-6">
@@ -240,8 +383,17 @@
             <div class="courses-2">
                 <div class="overlap-group-5" id="kyr">
                     <script>
-                        document.getElementById('kyr').addEventListener('click', function() {
-                            window.location.href = 'kontakt.html';
+                        document.getElementById('kyr').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'kontakt.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('kontakt.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                     <div class="paragraph">
@@ -296,8 +448,17 @@
                     <div class="article-2">
                         <img class="container-2" src="pgoto/Homeimage 61.png" id="bloh">
                         <script>
-                            document.getElementById('bloh').addEventListener('click', function() {
-                                window.location.href = 'novina.html';
+                            document.getElementById('bloh').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'novina.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('novina.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
                             });
                         </script>
                         <div class="icon"><img class="vector-img" src="pgoto/Homeicon2.png" /></div>
@@ -310,8 +471,17 @@
                         </p>
                         <button class="button-2" id="bloh2">
                             <script>
-                                document.getElementById('bloh2').addEventListener('click', function() {
-                                    window.location.href = 'novina.html';
+                                document.getElementById('bloh2').addEventListener('mousedown', function(event) {
+                                    if (event.button === 0) {
+                                        window.location.href = 'novina.html';
+                                    } else if (event.button === 1) {
+                                        var newTab = window.open('novina.html', '_blank');
+                                        if (newTab) {
+                                            newTab.blur();
+                                            window.focus();
+                                        }
+                                        event.preventDefault();
+                                    }
                                 });
                             </script>
                             <a><div class="text-57">Читати Більше</div></a>
@@ -331,7 +501,21 @@
                 </div>
                 <div class="group-13">
                     <div class="overlap-group-6">
-                        <div class="textbloh">БЛОГ ТА НОВИНИ</div>
+                        <div class="textbloh" id="tyton">БЛОГ ТА НОВИНИ</div>
+                        <script>
+                            document.getElementById('tyton').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'bloh.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('bloh.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
+                            });
+                        </script>
                         <img class="object-2" src="img/line1.png" />
                     </div>
                 </div>
@@ -367,7 +551,7 @@
                     <div class="group-19">
                         <div class="overlap-group-8">
                             <div class="text-67">УНІВЕРСИТЕТ</div>
-                            <div class="text-68">Ну “львівська<br />політехніка”</div>
+                            <div class="text-68">НУ “Львівська<br />політехніка”</div>
                         </div>
                     </div>
                     <img class="image-img-8" src="pgoto/Homeimage 54.png" />
@@ -381,7 +565,7 @@
                         <div class="overlap-group-9">
                             <div class="section-2">
                                 <div class="text-69">ВІДГУКИ</div>
-                                <div class="text-70">Інженерія Програмного Забезпечення</div>
+                                <div class="text-70">Інженерія програмного забезпечення</div>
                                 <img class="img-8" src="pgoto/HomeSymbol100.png">
                             </div>
                             <img class="imagereviews-img" src="pgoto/Homeimagereviews3.png" />
@@ -439,44 +623,107 @@
                 <div class="group-25">
                     <div class="futertext-9"id="proff1">Інженерія програмного забезпечення</div>
                     <script>
-                        document.getElementById('proff1').addEventListener('click', function() {
-                            window.location.href = 'ipz.html';
+                        document.getElementById('proff1').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ipz.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ipz.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                     <div class="futertext-10"id="proff2">Підприємництво та торгівля</div>
                     <script>
-                        document.getElementById('proff2').addEventListener('click', function() {
-                            window.location.href = 'ptt.html';
+                        document.getElementById('proff2').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ptt.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ptt.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                     <div class="futertext-11"id="proff3">Електроенергетика, електротехніка та електромеханіка</div>
                     <script>
-                        document.getElementById('proff3').addEventListener('click', function() {
-                            window.location.href = 'ele.html';
+                        document.getElementById('proff3').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ele.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ele.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                     <div class="futertext-12"id="proff4">Маркетинг</div>
                     <script>
-                        document.getElementById('proff4').addEventListener('click', function() {
-                            window.location.href = 'mar.html';
+                        document.getElementById('proff4').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'mar.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('mar.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                     <div class="futertext-13"id="proff5">Харчові технології</div>
                     <script>
-                        document.getElementById('proff5').addEventListener('click', function() {
-                            window.location.href = 'ht.html';
+                        document.getElementById('proff5').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ht.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ht.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                     <div class="futertext-14"id="proff6">Автоматизація, комп’ютерно-інтегровані<br />технології та робототехніка</div>
                     <script>
-                        document.getElementById('proff6').addEventListener('click', function() {
-                            window.location.href = 'avtomat.html';
+                        document.getElementById('proff6').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'avtomat.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('avtomat.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                     <div class="futertext-15"id="proff7">Комп’ютерна інженерія</div>
                     <script>
-                        document.getElementById('proff7').addEventListener('click', function() {
-                            window.location.href = 'ki.html';
+                        document.getElementById('proff7').addEventListener('mousedown', function(event) {
+                            if (event.button === 0) {
+                                window.location.href = 'ki.html';
+                            } else if (event.button === 1) {
+                                var newTab = window.open('ki.html', '_blank');
+                                if (newTab) {
+                                    newTab.blur();
+                                    window.focus();
+                                }
+                                event.preventDefault();
+                            }
                         });
                     </script>
                 </div>
@@ -519,7 +766,12 @@
             </div>
         </div>
         <div class="group-28">
-            <div class="futertitle-2">Контакти</div>
+            <div class="futertitle-2"id="kontik">Контакти</div>
+            <script>
+                document.getElementById('kontik').addEventListener('click', function() {
+                    window.location.href = 'kontakt.html';
+                });
+            </script>
             <div class="group-29">
                 <div class="group-30">
                     <iframe class="futerimage-img" <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5149.580468684217!2d24.07179148857456!3d49.80881117786951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae81c20a2ca41%3A0x29e04fd364c34bda!2z0KLQtdGF0L3RltGH0L3QuNC5INGE0LDRhdC-0LLQuNC5INC60L7Qu9C10LTQtg!5e0!3m2!1suk!2sua!4v1718252415886!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>

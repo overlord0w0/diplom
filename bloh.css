@@ -33,7 +33,7 @@
 }
 
 .blog .text-wrapper {
-    left: 562px;
+    left: 623px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -43,10 +43,11 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .div {
-    left: 666px;
+    left: 728px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -56,10 +57,11 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .text-wrapper-2 {
-    left: 802px;
+    left: 831px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -69,10 +71,11 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .text-wrapper-3 {
-    left: 954px;
+    left: 983px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -82,10 +85,11 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .text-wrapper-4 {
-    left: 1068px;
+    left: 1097px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -95,10 +99,11 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .text-wrapper-5 {
-    left: 1198px;
+    left: 1227px;
     position: absolute;
     top: 31px;
     font-family: "Inter-Regular", Helvetica;
@@ -108,6 +113,7 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .group {

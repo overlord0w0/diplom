@@ -38,7 +38,7 @@ html, body {
 }
 
 .text {
-    left: 562px;
+    left: 623px;
     position: absolute;
     top: 31px;
     font-family: "Manrope-Regular", Helvetica;
@@ -47,10 +47,11 @@ html, body {
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .text-wrapper {
-    left: 666px;
+    left: 728px;
     position: absolute;
     top: 31px;
     font-family: "Manrope-Regular", Helvetica;
@@ -59,10 +60,11 @@ html, body {
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .div {
-    left: 802px;
+    left: 831px;
     position: absolute;
     top: 31px;
     font-family: "Manrope-Regular", Helvetica;
@@ -71,10 +73,11 @@ html, body {
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .text-2 {
-    left: 954px;
+    left: 983px;
     position: absolute;
     top: 31px;
     font-family: "Manrope-Regular", Helvetica;
@@ -83,10 +86,11 @@ html, body {
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .text-3 {
-    left: 1068px;
+    left: 1097px;
     position: absolute;
     top: 31px;
     font-family: "Manrope-Regular", Helvetica;
@@ -95,10 +99,11 @@ html, body {
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .text-4 {
-    left: 1198px;
+    left: 1227px;
     position: absolute;
     top: 31px;
     font-family: "Manrope-Regular", Helvetica;
@@ -107,11 +112,12 @@ html, body {
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .banner {
     position: absolute;
-    width: 1924px;
+    width: 1920px;
     height: 944px;
     top: 80px;
     left: 0;
@@ -571,6 +577,7 @@ html, body {
     color: #e5e5e5;
     font-size: 16px;
     line-height: normal;
+    cursor: pointer;
 }
 
 .home .specialty {
@@ -645,6 +652,8 @@ html, body {
     background-color: #e5e5e5;
     border-radius: 7px;
     overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .home .img-img {
@@ -653,6 +662,8 @@ html, body {
     height: 70px;
     top: 32px;
     left: 32px;
+    transition: filter 0.3s ease;
+    filter: none;
 }
 
 .home .text-24 {
@@ -667,6 +678,19 @@ html, body {
     font-size: 24px;
     letter-spacing: -0.84px;
     line-height: 28.8px;
+    transition: color 0.3s ease;
+}
+
+.home .block-profession:hover {
+    background-color: #14452f;
+}
+
+.home .block-profession:hover .img-img {
+    filter: invert(100%);
+}
+
+.home .block-profession:hover .text-24 {
+    color: #e5e5e5;
 }
 
 .home .block-5 {
@@ -678,9 +702,20 @@ html, body {
     background-color: #e5e5e5;
     border-radius: 7px;
     overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.home .text-25 {
+.home .block-5 .img-img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 32px;
+    left: 32px;
+    transition: filter 0.3s ease;
+}
+
+.home .block-5 .text-25 {
     position: absolute;
     width: 291px;
     height: 65px;
@@ -692,6 +727,19 @@ html, body {
     font-size: 24px;
     letter-spacing: -0.26px;
     line-height: 36px;
+    transition: color 0.3s ease;
+}
+
+.home .block-5:hover {
+    background-color: #14452f;
+}
+
+.home .block-5:hover .img-img {
+    filter: invert(100%);
+}
+
+.home .block-5:hover .text-25 {
+    color: #e5e5e5;
 }
 
 .home .block-6 {
@@ -703,9 +751,20 @@ html, body {
     background-color: #e5e5e5;
     border-radius: 7px;
     overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.home .text-26 {
+.home .block-6 .img-img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 32px;
+    left: 32px;
+    transition: filter 0.3s ease;
+}
+
+.home .block-6 .text-26 {
     position: absolute;
     width: 293px;
     height: 55px;
@@ -717,6 +776,19 @@ html, body {
     font-size: 24px;
     letter-spacing: -0.84px;
     line-height: 28.8px;
+    transition: color 0.3s ease;
+}
+
+.home .block-6:hover {
+    background-color: #14452f;
+}
+
+.home .block-6:hover .img-img {
+    filter: invert(100%);
+}
+
+.home .block-6:hover .text-26 {
+    color: #e5e5e5;
 }
 
 .home .block-7 {
@@ -728,9 +800,20 @@ html, body {
     background-color: #e5e5e5;
     border-radius: 7px;
     overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.home .text-27 {
+.home .block-7 .img-img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 32px;
+    left: 32px;
+    transition: filter 0.3s ease;
+}
+
+.home .block-7 .text-27 {
     position: absolute;
     width: 236px;
     height: 28px;
@@ -743,6 +826,19 @@ html, body {
     letter-spacing: -0.26px;
     line-height: 36px;
     white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.home .block-7:hover {
+    background-color: #14452f;
+}
+
+.home .block-7:hover .img-img {
+    filter: invert(100%);
+}
+
+.home .block-7:hover .text-27 {
+    color: #e5e5e5;
 }
 
 .home .block-8 {
@@ -754,9 +850,11 @@ html, body {
     background-color: #e5e5e5;
     border-radius: 7px;
     overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.home .overlap-group-3 {
+.home .block-8 .overlap-group-3 {
     position: relative;
     width: 322px;
     height: 165px;
@@ -764,15 +862,16 @@ html, body {
     left: 9px;
 }
 
-.home .img-prof-img {
+.home .block-8 .img-prof-img {
     position: absolute;
     width: 56px;
     height: 70px;
     top: 0;
     left: 30px;
+    transition: filter 0.3s ease;
 }
 
-.home .text-28 {
+.home .block-8 .text-28 {
     position: absolute;
     width: 322px;
     height: 99px;
@@ -784,6 +883,19 @@ html, body {
     font-size: 24px;
     letter-spacing: -0.26px;
     line-height: 36px;
+    transition: color 0.3s ease;
+}
+
+.home .block-8:hover {
+    background-color: #14452f;
+}
+
+.home .block-8:hover .img-prof-img {
+    filter: invert(100%);
+}
+
+.home .block-8:hover .text-28 {
+    color: #e5e5e5;
 }
 
 .home .block-9 {
@@ -795,9 +907,20 @@ html, body {
     background-color: #e5e5e5;
     border-radius: 7px;
     overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.home .text-29 {
+.home .block-9 .img-img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 32px;
+    left: 32px;
+    transition: filter 0.3s ease;
+}
+
+.home .block-9 .text-29 {
     position: absolute;
     width: 236px;
     height: 22px;
@@ -810,6 +933,19 @@ html, body {
     letter-spacing: -0.84px;
     line-height: 28.8px;
     white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.home .block-9:hover {
+    background-color: #14452f;
+}
+
+.home .block-9:hover .img-img {
+    filter: invert(100%);
+}
+
+.home .block-9:hover .text-29 {
+    color: #e5e5e5;
 }
 
 .home .block-10 {
@@ -821,9 +957,20 @@ html, body {
     background-color: #e5e5e5;
     border-radius: 7px;
     overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.home .text-30 {
+.home .block-10 .img-img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 32px;
+    left: 32px;
+    transition: filter 0.3s ease;
+}
+
+.home .block-10 .text-30 {
     position: absolute;
     width: 138px;
     height: 30px;
@@ -836,6 +983,19 @@ html, body {
     letter-spacing: -0.84px;
     line-height: 28.8px;
     white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.home .block-10:hover {
+    background-color: #14452f;
+}
+
+.home .block-10:hover .img-img {
+    filter: invert(100%);
+}
+
+.home .block-10:hover .text-30 {
+    color: #e5e5e5;
 }
 
 .home .block-11 {
@@ -847,6 +1007,7 @@ html, body {
     background-color: #f35f41;
     border-radius: 7px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .home .text-31 {
@@ -915,6 +1076,7 @@ html, body {
     top: 0;
     left: 22px;
     object-fit: cover;
+    opacity: 0.75;
 }
 
 .home .text-32 {
@@ -1143,6 +1305,7 @@ html, body {
     top: 91px;
     position: absolute;
     left: 0;
+    cursor: pointer;
 }
 
 .home .overlap-group-5 {
@@ -1559,6 +1722,7 @@ html, body {
     background-color: #f35f41;
     border-radius: 7px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .home .text-53 {
@@ -1594,6 +1758,7 @@ html, body {
     background-image: url(./img/image-16.png);
     background-size: cover;
     background-position: 50% 50%;
+    cursor: pointer;
 }
 
 .home .vector-img {
@@ -1752,6 +1917,7 @@ html, body {
     letter-spacing: 2.8px;
     line-height: 16.8px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .home .object-2 {
@@ -2408,6 +2574,7 @@ html, body {
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .home .futertext-10 {
@@ -2421,6 +2588,7 @@ html, body {
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .home .futertext-11 {
@@ -2434,6 +2602,7 @@ html, body {
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .home .futertext-12 {
@@ -2447,6 +2616,7 @@ html, body {
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .home .futertext-13 {
@@ -2461,6 +2631,7 @@ html, body {
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .home .futertext-14 {
@@ -2473,6 +2644,7 @@ html, body {
     font-size: 16px;
     letter-spacing: -0.18px;
     line-height: 24px;
+    cursor: pointer;
 }
 
 .home .futertext-15 {
@@ -2486,6 +2658,7 @@ html, body {
     letter-spacing: -0.18px;
     line-height: 24px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .home .futertitle {
@@ -2519,6 +2692,7 @@ html, body {
     letter-spacing: -0.33px;
     line-height: 45px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .home .group-27 {
