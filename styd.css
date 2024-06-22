@@ -191,6 +191,7 @@
     letter-spacing: 1.6px;
     line-height: 23.8px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .stydint .vertical-divider {
