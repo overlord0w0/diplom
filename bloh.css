@@ -192,6 +192,7 @@
     letter-spacing: 1.6px;
     line-height: 23.8px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .blog .vertical-divider {
@@ -621,7 +622,7 @@
 }
 
 .blog .link-design-3 {
-    width: 91px;
+    width: 101px;
     position: absolute;
     height: 18px;
     top: 284px;

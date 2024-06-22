@@ -154,12 +154,12 @@
     opacity: 0.8;
 }
 
-.screen .link-home {
+.link-home {
     width: 79px;
-    left: 826px;
+    left: 695px;
     position: absolute;
     height: 24px;
-    top: 280px;
+    top: 217px;
     font-family: "Manrope-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
@@ -168,25 +168,26 @@
     letter-spacing: 1.6px;
     line-height: 23.8px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.screen .vertical-divider {
+.vertical-divider {
     position: absolute;
     width: 1px;
     height: 14px;
-    top: 287px;
-    left: 916px;
+    top: 224px;
+    left: 784px;
     background-color: #ffffff;
     transform: rotate(20deg);
     opacity: 0.5;
 }
 
-.screen .link-design {
+.link-design {
     width: 137px;
-    left: 926px;
+    left: 795px;
     position: absolute;
     height: 24px;
-    top: 280px;
+    top: 217px;
     font-family: "Manrope-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
@@ -195,25 +196,26 @@
     letter-spacing: 1.6px;
     line-height: 23.8px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.screen .vertical-divider-2 {
+.vertical-divider-2 {
     position: absolute;
     width: 1px;
     height: 14px;
-    top: 287px;
-    left: 1074px;
+    top: 224px;
+    left: 940px;
     background-color: #ffffff;
     transform: rotate(20deg);
     opacity: 0.5;
 }
 
-.screen .text-wrapper-6 {
+.text-wrapper-6 {
     position: absolute;
-    width: 273px;
+    width: 350px;
     height: 24px;
-    top: 280px;
-    left: 1087px;
+    top: 217px;
+    left: 915px;
     font-family: "Manrope-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;

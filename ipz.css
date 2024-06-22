@@ -374,7 +374,7 @@
     white-space: nowrap;
 }
 
-.ipz .link-home {
+.link-home {
     width: 79px;
     left: 654px;
     position: absolute;
@@ -388,9 +388,10 @@
     letter-spacing: 1.6px;
     line-height: 23.8px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.ipz .vertical-divider {
+.vertical-divider {
     position: absolute;
     width: 1px;
     height: 14px;
@@ -401,7 +402,7 @@
     opacity: 0.5;
 }
 
-.ipz .link-design {
+.link-design {
     width: 137px;
     left: 754px;
     position: absolute;
@@ -415,9 +416,10 @@
     letter-spacing: 1.6px;
     line-height: 23.8px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.ipz .vertical-divider-2 {
+.vertical-divider-2 {
     position: absolute;
     width: 1px;
     height: 14px;
@@ -428,7 +430,7 @@
     opacity: 0.5;
 }
 
-.ipz .text-wrapper-10 {
+.text-wrapper-10 {
     position: absolute;
     width: 350px;
     height: 24px;
