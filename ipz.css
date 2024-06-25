@@ -112,7 +112,7 @@
 
 .link-home{
     width: auto;
-    left: 43%;
+    left: 38%;
     position: absolute;
     height: 24px;
     top: 217px;
@@ -130,7 +130,7 @@
 
 .link-design {
     width: auto;
-    left: 58%;
+    left: 46%;
     position: absolute;
     height: 24px;
     top: 217px;
@@ -149,7 +149,7 @@
 .vertical-divider{
     position: absolute;
     width: 1px;
-    left: 46%;
+    left: 41%;
     height: 14px;
     top: 224px;
     background-color: #ffffff;
@@ -160,7 +160,7 @@
 .vertical-divider-2 {
     position: absolute;
     width: 1px;
-    left: 53.5%;
+    left: 51%;
     height: 14px;
     top: 224px;
     background-color: #ffffff;
@@ -173,7 +173,7 @@
     width: 350px;
     height: 24px;
     top: 217px;
-    left: 50%;
+    left: 62.5%;
     font-family: "Manrope-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
