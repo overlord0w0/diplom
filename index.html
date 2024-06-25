@@ -190,9 +190,9 @@
         <div class="group">
             <div class="title-2">
                 <div class="horizontal"></div>
-                <div class="text-22">ВИБЕРИ ТВОЮ ПРОФЕСІЮ</div>
+                <div class="text-22">СПЕЦІАЛЬНОСТІ</div>
             </div>
-            <div class="text-23">Вибери Свою Майбутню Професію</div>
+            <div class="text-23">Вибери свою майбутню спеціальність</div>
             <div class="group-2">
                 <div class="block-profession"id="prof1">
                     <img class="img-img" src="pgoto/Homeimg_prof1.png" />
@@ -400,9 +400,8 @@
                         <img class="symbol-img" src="pgoto/Homesymbol3.png" />
                         <div class="text-40">20 Бер, 2024</div>
                         <img class="img-6" src="pgoto/Homesymbol2.png" />
-                        <div class="text-41">2 Підручника</div>
-                        <img class="img-7" src="pgoto/Homesymbol1.png" />
-                        <div class="text-42">50 Студентів</div>
+                        <div class="text-41">2 Предмета</div>
+
                         <img class="image-courses-img" src="pgoto/image_courses.png" />
                     </div>
                     <div class="group-8">
@@ -414,9 +413,9 @@
                         <img class="image-img-5" src="pgoto/Homeimage_icon1.png" />
                         <div class="text-44">4</div>
                     </div>
-                    <div class="text-45">Курси Підготовки</div>
+                    <div class="text-45">Курси підготовки</div>
                     <div class="bloc">
-                        <p class="text-46">Наші курси з підготовки допоможуть вам поступити у наший коледж</p>
+                        <p class="text-46">Наші курси з підготовки допоможуть вам підвищити свої знання</p>
                     </div>
                 </div>
             </div>
@@ -436,14 +435,44 @@
                 <p class="text-49">Тут ви можете прочитати про наші досягнення та новини</p>
                 <div class="group-12">
                     <div class="article">
-                        <img class="container" src="pgoto/Homeimage 60.png" />>
+                        <img class="container" src="pgoto/Homeimage 60.png" id="nov1">
+                        <script>
+                            document.getElementById('nov1').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'novina1.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('novina1.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
+                            });
+                        </script>
                         <img class="icon" src="pgoto/Homeicon1.png" />
                         <div class="text-50">ТРЕНІНГ</div>
-                        <div class="heading-2"><div class="text-51">завершився Training workshop</div></div>
+                        <div class="heading-2"><div class="text-51">Завершився Training workshop</div></div>
                         <p class="text-52">
                             Було завершено Training workshop для студентів 2-го та 3-го курсів спеціальності &#34;Маркетинг&#34;.
                         </p>
-                        <button class="button-2"><div class="text-53">Читати Більше</div></button>
+                        <button class="button-2" id="nov1.1">
+                            <script>
+                                document.getElementById('nov1.1').addEventListener('mousedown', function(event) {
+                                    if (event.button === 0) {
+                                        window.location.href = 'novina1.html';
+                                    } else if (event.button === 1) {
+                                        var newTab = window.open('novina1.html', '_blank');
+                                        if (newTab) {
+                                            newTab.blur();
+                                            window.focus();
+                                        }
+                                        event.preventDefault();
+                                    }
+                                });
+                            </script>
+                            <div class="text-53">Читати Більше</div>
+                        </button>
                     </div>
                     <div class="article-2">
                         <img class="container-2" src="pgoto/Homeimage 61.png" id="bloh">
@@ -464,7 +493,7 @@
                         <div class="icon"><img class="vector-img" src="pgoto/Homeicon2.png" /></div>
                         <div class="text-54">ТРЕНІНГ</div>
                         <div class="heading-2">
-                            <a><div class="text-55">початок Training workshop</div></a>
+                            <a><div class="text-55">Початок Training workshop</div></a>
                         </div>
                         <p class="text-56">
                             Було проведено Training workshop для студентів 2-го та 3-го курсів спеціальності &#34;Маркетинг&#34;.
@@ -488,15 +517,45 @@
                         </button>
                     </div>
                     <div class="article-3">
-                        <img class="container-3" src="pgoto/Homeimage 62.png">
+                        <img class="container-3" src="pgoto/Homeimage 62.png" id="nov2">
+                        <script>
+                            document.getElementById('nov2').addEventListener('mousedown', function(event) {
+                                if (event.button === 0) {
+                                    window.location.href = 'novina2.html';
+                                } else if (event.button === 1) {
+                                    var newTab = window.open('novina2.html', '_blank');
+                                    if (newTab) {
+                                        newTab.blur();
+                                        window.focus();
+                                    }
+                                    event.preventDefault();
+                                }
+                            });
+                        </script>
                         <img class="icon" src="pgoto/Homeicon2.png" />
                         <div class="text-50">СПОРТ</div>
-                        <div class="heading-2"><div class="text-58">змагання з армрестлінгу</div></div>
+                        <div class="heading-2"><div class="text-58">Змагання з армрестлінгу</div></div>
                         <p class="text-59">
                             Відбулися змагання з армрестлінгу серед студентів закладів фахової передвищої освіти Львівської
                             області.
                         </p>
-                        <button class="button-2"><div class="text-60">Читати Більше</div></button>
+                        <button class="button-2"id="nov2.1">
+                            <script>
+                                document.getElementById('nov2.1').addEventListener('mousedown', function(event) {
+                                    if (event.button === 0) {
+                                        window.location.href = 'novina2.html';
+                                    } else if (event.button === 1) {
+                                        var newTab = window.open('novina2.html', '_blank');
+                                        if (newTab) {
+                                            newTab.blur();
+                                            window.focus();
+                                        }
+                                        event.preventDefault();
+                                    }
+                                });
+                            </script>
+                            <div class="text-60">Читати Більше</div>
+                        </button>
                     </div>
                 </div>
                 <div class="group-13">

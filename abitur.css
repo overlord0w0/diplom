@@ -889,7 +889,7 @@
     color: #1e1e1e;
     font-size: 19px;
     letter-spacing: -0.21px;
-    line-height: 28.5px;
+    line-height: 20px;
     white-space: nowrap;
 }
 
@@ -957,7 +957,7 @@
 
 .screen .overlap-4 {
     position: absolute;
-    width: 278px;
+    width: 500px;
     height: 149px;
     top: 1956px;
     left: 1405px;
@@ -965,7 +965,7 @@
 
 .screen .text-wrapper-31 {
     position: absolute;
-    width: 278px;
+    width: 500px;
     top: 120px;
     left: 0;
     font-family: "DM Sans-Medium", Helvetica;
@@ -978,7 +978,7 @@
 
 .screen .text-wrapper-32 {
     position: absolute;
-    width: 278px;
+    width: 500px;
     top: 96px;
     left: 0;
     font-family: "DM Sans-Medium", Helvetica;
@@ -991,7 +991,7 @@
 
 .screen .text-wrapper-33 {
     position: absolute;
-    width: 278px;
+    width: 500px;
     top: 72px;
     left: 0;
     font-family: "DM Sans-Medium", Helvetica;
@@ -1004,7 +1004,7 @@
 
 .screen .text-wrapper-34 {
     position: absolute;
-    width: 278px;
+    width: 500px;
     top: 48px;
     left: 0;
     font-family: "DM Sans-Medium", Helvetica;
@@ -1017,7 +1017,7 @@
 
 .screen .text-wrapper-35 {
     position: absolute;
-    width: 278px;
+    width: 500px;
     top: 24px;
     left: 0;
     font-family: "DM Sans-Medium", Helvetica;
@@ -1030,7 +1030,7 @@
 
 .screen .text-wrapper-36 {
     position: absolute;
-    width: 278px;
+    width: 500px;
     top: 0;
     left: 0;
     font-family: "DM Sans-Medium", Helvetica;

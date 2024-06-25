@@ -1651,6 +1651,7 @@ html, body {
     background-image: url(./img/image-15.png);
     background-size: cover;
     background-position: 50% 50%;
+    cursor: pointer;
 }
 
 .home .icon {
@@ -1844,6 +1845,7 @@ html, body {
     background-image: url(./img/image-17.png);
     background-size: cover;
     background-position: 50% 50%;
+    cursor: pointer;
 }
 
 .home .text-58 {
