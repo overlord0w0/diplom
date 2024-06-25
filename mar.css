@@ -130,7 +130,7 @@
 
 .link-design {
     width: auto;
-    left: 58%;
+    left: 51%;
     position: absolute;
     height: 24px;
     top: 217px;
@@ -160,7 +160,7 @@
 .vertical-divider-2 {
     position: absolute;
     width: 1px;
-    left: 53.5%;
+    left: 56%;
     height: 14px;
     top: 224px;
     background-color: #ffffff;
@@ -173,7 +173,7 @@
     width: 350px;
     height: 24px;
     top: 217px;
-    left: 50%;
+    left: 60%;
     font-family: "Manrope-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
